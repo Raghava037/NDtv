@@ -35,7 +35,7 @@ public class BaseClassNDTV
 	public void methodConfiguration()
 	{
 		time=Long.parseLong(property.featchproperties("timeouts"));
-		driver=web.opeanApplication(property.featchproperties("browser"), time, property.featchproperties("url"));
+		driver=web.opeanApplication(property.featchproperties("browser"), time,property.featchproperties("url"));
 		
 		home=new Homepage(driver);
 		
